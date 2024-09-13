@@ -1,7 +1,8 @@
 ** Feito em JavaScript **
 
 1) Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2 valores anteriores (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa na linguagem que desejar onde, informado um número, ele calcule a sequência de Fibonacci e retorne uma mensagem avisando se o número informado pertence ou não a sequência.
-R: function fibonacci(num) {
+R: ```
+function fibonacci(num) {
   let a = 0;
   let b = 1;
   let fib = b;
@@ -14,9 +15,10 @@ R: function fibonacci(num) {
   }
 //digitar o numero desejado aqui em baixo
 fibonacci(40)
-
+```
 2) Escreva um programa que verifique, em uma string, a existência da letra ‘a’, seja maiúscula ou minúscula, além de informar a quantidade de vezes em que ela ocorre.
-R: function contarLetrasA(string) {
+R: 
+```function contarLetrasA(string) {
   let count = 0
   for (let i = 0; i < string.length; i++) {
     if (string[i].toLowerCase() === 'a') {
@@ -26,9 +28,10 @@ R: function contarLetrasA(string) {
   console.log(`A letra A apareceu ${count } vezes`)
 }
 contarLetrasA('Pastel de Banana com Ameixa')
-
+```
 3) Observe o trecho de código abaixo: int INDICE = 12, SOMA = 0, K = 1; enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; } imprimir(SOMA);
-R: const indice = 12
+R: 
+```const indice = 12
 let k = 1
 let soma = 0
 while(k < indice){
@@ -37,7 +40,7 @@ while(k < indice){
 }
 console.log(soma)
 // resposta é 77
-
+```
 4) Descubra a lógica e complete o próximo elemento:
 a) 1, 3, 5, 7, 9
 b) 2, 4, 8, 16, 32, 64, 128
